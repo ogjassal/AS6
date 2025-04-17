@@ -21,5 +21,8 @@ function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
+function contactForm() {
+  alert("thanks we got your messsage");
+}
 
 
