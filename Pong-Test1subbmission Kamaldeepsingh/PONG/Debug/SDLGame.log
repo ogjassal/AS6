@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GAME311_SDLGame.vcxproj, Lab8c.vcxproj, PARTNER PROJECT 1.vcxproj, PARTNER PROJECT 2.vcxproj, SIMON.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Test1-Pong.cpp
+C:\Users\Lenovo\Desktop\AS6\Pong-Test1subbmission Kamaldeepsingh\PONG\Test1-Pong.cpp(103,31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Lenovo\Desktop\AS6\Pong-Test1subbmission Kamaldeepsingh\PONG\Test1-Pong.cpp(104,31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Lenovo\Desktop\AS6\Pong-Test1subbmission Kamaldeepsingh\PONG\Test1-Pong.cpp(198,63): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Lenovo\Desktop\AS6\Pong-Test1subbmission Kamaldeepsingh\PONG\Test1-Pong.cpp(199,63): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  SDLGame.vcxproj -> C:\Users\Lenovo\Desktop\AS6\Pong-Test1subbmission Kamaldeepsingh\Debug\PONG.exe
