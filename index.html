@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Your Portfolio</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+ <header>
+  <h1>Welcome to My Portfolio</h1>
+  <nav>
+  <ul>
+   <li><a href="#about">About Me</a></li>
+   <li><a href="#portfolio">Projects</a></li>
+   <li><a href="#skills">Skills</a></li>
+   <li><a href="#contact">Contact</a></li>
+  </ul>
+  </nav>
+ </header>
+
+ <main>
+  <section id="about">
+  <h2>About Me:</h2>
+  <div class="profile-container">
+    <div><img src="Profile.jpeg" alt="A picture of me" class="profile-image"></div>
+    <div class="vertical-line"></div>
+  <p>Hello! I'm Kamaldeep Singh, I'm an international student at St. Lawrence College studying Game Programming,<br>
+    passionate about coding and how things work behind the scenes. <br>
+    I also love music, writing, and cooking they keep my creativity flowing outside of tech.<br> 
+    My goal is to blend creativity and code to build meaningful, fun experiences.</p>
+    </div>
+    <div class="horizontal-line"></div>
+    
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+      <ul>Html</ul>
+      <ul>CSS</ul>
+      <UL>C++</UL>
+      <ul>JavaScript</ul>
+      <ul>Python</ul>
+  </section>
+  
+    
+
+  <section id="portfolio">
+  <h2>Portfolio / Projects</h2>
+  <article>
+   <h3>Flappy Bird Project</h3>
+   <p>Flappy Bird is a simple yet addictive 2D side-scrolling game where the player controls a small bird that <br>
+  must navigate through a series of pipes by tapping the screen to make it flap. The main goal is to get <br>
+   through as many pipes as possible without crashing, earning a point for each successful pass.</p>
+   <h4>Screenshot:</h4>
+   <img src="Flappy Bird.png" alt="Screenshot of Flappy Bird" class= "Flappy_Bird"> <br>
+   <h4>Link to access:</h4>
+   <a href="https://github.com/ogjassal/AS6/blob/main/FlappyBird.mp4">View on GitHub</a>
+  </article>
+  <article>
+   <h3>Pong Game</h3>
+   <p>This is a fun twist on classic Pong with two balls, a red ball and a white ball for extra challenge. <br>
+     You play against the computer, each controlling a paddle. The balls move differently, so you'll <br>
+     need quick reflexes to keep up. It's fast, unpredictable, and way more fun than the original!</p>
+     <H4>Screenshot:</H4>
+   <img src="Pong Game.png" alt="Screenshot of Pong Game" class="Pong_game"><br>
+   <H4>Link to access</H4>
+   <a href="https://github.com/ogjassal/AS6/tree/main/Pong-Test1subbmission%20Kamaldeepsingh">View on GitHub</a>
+  </article>
+  <article>
+   <h3>Bobble-Head Wars</h3>
+   <p>Bobblehead Wars is a fun, action-packed game where quirky bobblehead characters battle it out in wild arenas.
+     You fight against the Aliens, using crazy moves and power-ups to win. With head's bobbling hilarious animations
+      and fast-paced gameplay, this game is all about timing, chaos, and having a good time!</p>
+      <h4>Screenshot:</h4>
+   <img src="BobbleHeadWars.png" alt="Screenshot of BobbleHead" class=" bobblehead"> <br>
+   <H4>Link to access</H4>
+   <a href="https://github.com/ogjassal/AS6/blob/main/BobbleHead.mp4">View on GitHub</a>
+  </article>
+  </section>
+
+  
+  
+  
+  <section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <label for="name">First Name</label>
+   <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+   <label for="Email">Email</label>
+   <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+   <textarea placeholder="Your Message" required></textarea>
+   <button type="submit">submit</button>
+  </form>
+  </section>
+ </main>
+
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><br>
+ <button onclick="myFunction()" id = "themebtn">Toggle dark mode</button>
+
+ <footer>
+  <p>2025 Kamaldeep Singh. All rights reserved.</p>
+  <div><a href="https://www.linkedin.com/in/kamal-deep-b79b5b337/">LinkedIn</a> | <a href="https://github.com/ogjassal">GitHub</a></div>
+ </footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
